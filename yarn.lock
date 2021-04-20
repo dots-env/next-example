@@ -603,10 +603,10 @@ dotenv@^8.2.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
 
-dots-env@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/dots-env/-/dots-env-1.0.7.tgz#7003d8b0a59ead860742d97deabe8a64728e2c3b"
-  integrity sha512-jnbYJsfL2XPLmXOns1w1OEQPAdEbITj+JK1GL0UwTM88aKssAhV55kKdXG8AU7E0BA3mN1d09KKbttOBiP5hgA==
+dots-env@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/dots-env/-/dots-env-1.0.8.tgz#264ec3654344fe7bc04f68612374f616b830e80f"
+  integrity sha512-Fjb7KQQxKLg22RyltptuqXwpqtaicVlLzU5hvHadzBLr2j7u0o9crFP4keg232Oq9W81p1BP1fSlBIREGPWKpg==
   dependencies:
     dotenv "^8.2.0"
     env-cmd "^10.1.0"
