@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "dots-env -c 'next dev'",
+    "dev:path": "dots-env -c 'next dev' -p './envs/'",
+    "dev:path:script": "node ./scripts/dev.js",
     "build": "dots-env -c 'next build'",
     "start": "dots-env -c 'next start'"
   },
@@ -13,6 +15,6 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "dots-env": "^1.0.6"
+    "dots-env": "^1.0.7"
   }
 }
