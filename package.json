@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "dots-env -c 'next dev'",
-    "dev:path": "dots-env -c 'next dev' -p './envs/'",
+    "dev:path": "dots-env -p './envs/' -c 'next dev'",
     "dev:path:script": "node ./scripts/dev.js",
     "build": "dots-env -c 'next build'",
     "start": "dots-env -c 'next start'"
