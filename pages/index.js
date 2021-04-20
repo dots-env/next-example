@@ -15,6 +15,13 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
+          env:
+          <code className={styles.code}>
+            {process.env.NEXT_PUBLIC_MY_ENV}
+          </code>
+        </p>
+
+        <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
